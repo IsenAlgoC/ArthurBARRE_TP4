@@ -17,7 +17,7 @@ int main() {
 	taille = strlen(mot);
 
 	for (i = 0; i < 1024; i++) {
-		if (mot[i] == ' ') {
+		if ((mot[i] == ' ')||( mot[i]=='\'')) {
 			nbremot++;
 			taille--;
 		}
